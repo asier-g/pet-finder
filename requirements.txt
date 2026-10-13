@@ -1,0 +1,19 @@
+# Librerías importadas en los notebooks y en preprocessing/preprocessor.py.
+# TODO: fijar versiones (pip freeze del entorno en el que se ejecutó el proyecto).
+pandas
+numpy
+pyarrow          # lectura/escritura de parquet (pandas.read_parquet / to_parquet)
+jmespath
+Pillow
+missingno
+matplotlib
+seaborn
+scikit-learn
+category_encoders
+imbalanced-learn
+xgboost
+lightgbm
+catboost
+optuna
+plotly           # necesario para optuna.visualization
+jupyter
